@@ -24,7 +24,7 @@ return function(Window, Tabs)
             end
         end
     })
-
+    
     InfoSection:AddButton({
         Title = "Rejoin Server",
         Callback = function()
