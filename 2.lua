@@ -13,7 +13,6 @@ return function(Window, Tabs)
     local privateServerId = game.PrivateServerId
 
     local InfoSection = Tabs.Info:AddSection("Information", true)
-
     InfoSection:AddParagraph({
         Title = "Meng Hub Discord",
         Content = "Official link discord!",
