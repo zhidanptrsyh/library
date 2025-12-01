@@ -11,20 +11,7 @@ return function(Window, Tabs)
     local placeId = game.PlaceId
     local jobId = game.JobId
     local privateServerId = game.PrivateServerId
-
-    local InfoSection = Tabs.Info:AddSection("Meng Hub Information", true)
-
-    InfoSection:AddParagraph({
-        Title = "Meng Hub Alert!",
-        Content = [[
-This script is still under development!
-There is a possibility it may get detected if used in public servers!
-If you have suggestions or found bugs, please report them to <font color="rgb(0,170,255)">Discord Meng Hub</font>!<br/>
-<b>Use at your own risk!</b>
-]],
-        Icon = "water"
-    })
-
+    
     InfoSection:AddParagraph({
         Title = "Meng Hub Discord",
         Content = "Official link discord Meng Hub!",
